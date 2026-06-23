@@ -133,12 +133,6 @@ print(f"Found {len(server_ids)} server detail links. Fetching details and filter
 
 pirate_servers = []
 
-# Always keep our own VPS-tunneled server!
-pirate_servers.append({
-    "name": "My PZ Server (Aeza)",
-    "ip": "109.120.134.246",
-    "port": 16261
-})
 
 for idx, s_id in enumerate(server_ids):
     print(f"[{idx+1}/{len(server_ids)}] Fetching info for ID {s_id}...")
