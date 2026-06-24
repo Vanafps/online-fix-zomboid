@@ -1379,7 +1379,7 @@ function MultiplayerUI:sortInternetList()
         local writer = getFileWriter("servers.txt", true, false)
         if writer then
             writer:write("# Custom servers list (IP:Port)\n")
-            writer:write("109.120.134.246:16261\n")
+            writer:write("127.0.0.1:16261\n")
             writer:close()
         end
     end
